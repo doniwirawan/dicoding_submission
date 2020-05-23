@@ -63,13 +63,21 @@ body {
 article{
     background-color: rgb(226, 226, 226);
     border-radius: 5px;
+    
 
 }
 .article-img{
     width: 100%;
     border-radius: 5px;
 }
+.article-title{
+    font-size: 3em;
+}
 .location{
+    font-size: .9em;
+    color: rgb(66, 66, 66);
+}
+.source{
     font-size: .7em;
     color: rgb(66, 66, 66);
 }
@@ -106,6 +114,7 @@ article{
 }
 .desc{
     color: rgb(31, 31, 31);
+    margin-bottom: 50px;
 }
 .nav a:hover {
     border-bottom: 2px solid black;
@@ -132,6 +141,7 @@ article{
     margin-top: 10px;
     background-color: whitesmoke;
     border-radius: 5px;
+    margin-bottom: 10px;
 
 }
 
