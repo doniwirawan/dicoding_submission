@@ -186,6 +186,9 @@ article {
 
 /* layout responsive */
 @media (max-width: 600px) {
+    .none{
+        display: none;
+    }
     .main {
         -webkit-flex-direction: column;
         flex-direction: column;
